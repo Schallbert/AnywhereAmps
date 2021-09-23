@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MAX17562)(type KiCad)(uri ${KIPRJMOD}/projectLibs/MAX17562.pretty)(options "")(descr ""))
+  (lib (name PTPSM5601R5)(type KiCad)(uri ${KIPRJMOD}/projectLibs/PTPSM5601R5.pretty)(options "")(descr ""))
+)

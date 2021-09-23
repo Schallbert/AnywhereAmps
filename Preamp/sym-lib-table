@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name AnywhereAmps_Preamp-rescue)(type Legacy)(uri ${KIPRJMOD}/AnywhereAmps_Preamp-rescue.lib)(options "")(descr ""))
+  (lib (name MAX17562)(type Legacy)(uri ${KIPRJMOD}/projectLibs/MAX17562/MAX17562.lib)(options "")(descr ""))
+  (lib (name PTPSM5601R5)(type Legacy)(uri ${KIPRJMOD}/projectLibs/PTPSM5601R5/PTPSM5601R5.lib)(options "")(descr ""))
+)
