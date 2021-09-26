@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Lukas\Documents\Technik- Projekt\Website_AssetsOriginals\AnywhereAmps\AnywhereAmps\Preamp\AnywhereAmps_Preamp.sch</source>
-    <date>25/09/2021 11:20:27</date>
+    <date>26/09/2021 21:15:45</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -27,7 +27,7 @@
       <tstamp>614488CD</tstamp>
     </comp>
     <comp ref="R1">
-      <value>383k</value>
+      <value>390k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -157,7 +157,7 @@
       <tstamp>61663046</tstamp>
     </comp>
     <comp ref="R15">
-      <value>383k</value>
+      <value>390k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -195,7 +195,7 @@
       <tstamp>61524C7D</tstamp>
     </comp>
     <comp ref="R17">
-      <value>383k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -206,7 +206,7 @@
       <tstamp>616B0371</tstamp>
     </comp>
     <comp ref="R16">
-      <value>383k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -399,7 +399,7 @@
       <tstamp>6150D0F0</tstamp>
     </comp>
     <comp ref="R7">
-      <value>383k</value>
+      <value>390k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -418,7 +418,7 @@
       <tstamp>6160340F</tstamp>
     </comp>
     <comp ref="R9">
-      <value>383k</value>
+      <value>390k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
