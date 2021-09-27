@@ -1246,13 +1246,13 @@ Wire Wire Line
 $Comp
 L Device:R R7
 U 1 1 615BE446
-P 1250 5950
-F 0 "R7" H 1180 5904 50  0000 R CNN
-F 1 "390k" H 1180 5995 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 5950 50  0001 C CNN
-F 3 "~" H 1250 5950 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 1250 5950 50  0001 C CNN "order"
-	1    1250 5950
+P 1250 5550
+F 0 "R7" H 1180 5504 50  0000 R CNN
+F 1 "390k" H 1180 5595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 5550 50  0001 C CNN
+F 3 "~" H 1250 5550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 1250 5550 50  0001 C CNN "order"
+	1    1250 5550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1276,31 +1276,6 @@ Wire Wire Line
 	3950 6200 3950 6300
 Connection ~ 3950 6300
 $Comp
-L power:GND #PWR05
-U 1 1 6163F85E
-P 1250 6200
-F 0 "#PWR05" H 1250 5950 50  0001 C CNN
-F 1 "GND" H 1255 6027 50  0000 C CNN
-F 2 "" H 1250 6200 50  0001 C CNN
-F 3 "" H 1250 6200 50  0001 C CNN
-	1    1250 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6100 1250 6200
-$Comp
-L Device:R R9
-U 1 1 616594CC
-P 3600 5550
-F 0 "R9" H 3530 5504 50  0000 R CNN
-F 1 "390k" H 3530 5595 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 5550 50  0001 C CNN
-F 3 "~" H 3600 5550 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 3600 5550 50  0001 C CNN "order"
-	1    3600 5550
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR09
 U 1 1 6165AA3A
 P 1650 6200
@@ -1319,13 +1294,11 @@ Wire Wire Line
 	1650 5400 1650 5800
 Wire Wire Line
 	1050 5700 1250 5700
-Wire Wire Line
-	1250 5800 1250 5700
 Connection ~ 1250 5700
 Wire Wire Line
 	1250 5700 1950 5700
 Wire Wire Line
-	1050 5400 1650 5400
+	1050 5400 1250 5400
 Connection ~ 1650 5400
 Wire Wire Line
 	1650 5400 1950 5400
@@ -1339,19 +1312,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 6400 3950 6500
 Connection ~ 3950 6400
-$Comp
-L power:VCC #PWR016
-U 1 1 616E08F5
-P 3600 5350
-F 0 "#PWR016" H 3600 5200 50  0001 C CNN
-F 1 "VCC" V 3615 5477 50  0000 L CNN
-F 2 "" H 3600 5350 50  0001 C CNN
-F 3 "" H 3600 5350 50  0001 C CNN
-	1    3600 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 5350 3600 5400
 Wire Wire Line
 	3950 5350 3950 5400
 Wire Wire Line
@@ -1367,13 +1327,6 @@ Wire Notes Line
 	5450 4400 5450 6800
 Wire Notes Line
 	550  6800 5450 6800
-Wire Wire Line
-	3450 5800 3600 5800
-Wire Wire Line
-	3600 5700 3600 5800
-Connection ~ 3600 5800
-Wire Wire Line
-	3600 5800 3950 5800
 Wire Wire Line
 	3950 5700 3950 5800
 $Comp
@@ -1403,7 +1356,7 @@ $EndComp
 Wire Wire Line
 	8250 1000 8500 1000
 Text Notes 1300 6750 0    39   ~ 0
-Barrel Jack to connect +9V and EN (NO switch). \nPullup to VCC then activates regulator. 
+Barrel Jack to disconnect GND and EN (NC switch). \nPullup to VCC then activates regulator. 
 Text Notes 6300 1650 0    50   ~ 0
 Virtual GND aka GNDA: VCC/2
 Text Notes 8700 1650 0    50   ~ 0
@@ -1683,4 +1636,9 @@ F 3 "https://www.mouser.de/datasheet/2/427/VISH_S_A0012037911_1-2572454.pdf" H 6
 	1    6000 4550
 	-1   0    0    1   
 $EndComp
+Connection ~ 1250 5400
+Wire Wire Line
+	1250 5400 1650 5400
+Wire Wire Line
+	3450 5800 3950 5800
 $EndSCHEMATC
