@@ -43,7 +43,7 @@ F 0 "R1" H 880 1854 50  0000 R CNN
 F 1 "390k" H 880 1945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 880 1900 50  0001 C CNN
 F 3 "~" H 950 1900 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 950 1900 50  0001 C CNN "order"
+F 4 "https://www.mouser.de/ProductDetail/KOA-Speer/RK73H2ATTD3903F?qs=D8YA4XSfdnQ%2FP3dwrcS24A%3D%3D" H 950 1900 50  0001 C CNN "order"
 	1    950  1900
 	-1   0    0    1   
 $EndComp
@@ -236,30 +236,15 @@ Wire Wire Line
 	1900 1350 1900 1600
 Wire Wire Line
 	4150 2100 4300 2100
-$Comp
-L Device:LED D1
-U 1 1 6150F2A0
-P 3100 3100
-F 0 "D1" V 3139 2982 50  0000 R CNN
-F 1 "Fault" V 3048 2982 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3100 3100 50  0001 C CNN
-F 3 "~" H 3100 3100 50  0001 C CNN
-	1    3100 3100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3100 2850 3100 2950
-Wire Wire Line
-	3100 3250 3100 3350
-Wire Wire Line
-	3100 3650 3100 3850
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 6153AC3F
 P 3300 850
 F 0 "J4" H 3408 1031 50  0000 C CNN
 F 1 "Switch" H 3408 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 3300 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3300 850 50  0001 C CNN
 F 3 "~" H 3300 850 50  0001 C CNN
 	1    3300 850 
 	1    0    0    -1  
@@ -333,7 +318,7 @@ U 1 1 61535E9A
 P 2250 850
 F 0 "J3" H 2358 1031 50  0000 C CNN
 F 1 "VCC" H 2358 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 2250 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2250 850 50  0001 C CNN
 F 3 "~" H 2250 850 50  0001 C CNN
 	1    2250 850 
 	1    0    0    -1  
@@ -413,23 +398,23 @@ Wire Wire Line
 $Comp
 L power:GND #PWR04
 U 1 1 61603409
-P 1100 4750
-F 0 "#PWR04" H 1100 4500 50  0001 C CNN
-F 1 "GND" V 1105 4622 50  0000 R CNN
-F 2 "" H 1100 4750 50  0001 C CNN
-F 3 "" H 1100 4750 50  0001 C CNN
-	1    1100 4750
+P 1100 4850
+F 0 "#PWR04" H 1100 4600 50  0001 C CNN
+F 1 "GND" V 1105 4722 50  0000 R CNN
+F 2 "" H 1100 4850 50  0001 C CNN
+F 3 "" H 1100 4850 50  0001 C CNN
+	1    1100 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+9V #PWR03
 U 1 1 61605088
-P 1100 4650
-F 0 "#PWR03" H 1100 4500 50  0001 C CNN
-F 1 "+9V" V 1115 4778 50  0000 L CNN
-F 2 "" H 1100 4650 50  0001 C CNN
-F 3 "" H 1100 4650 50  0001 C CNN
-	1    1100 4650
+P 1100 4750
+F 0 "#PWR03" H 1100 4600 50  0001 C CNN
+F 1 "+9V" V 1115 4878 50  0000 L CNN
+F 2 "" H 1100 4750 50  0001 C CNN
+F 3 "" H 1100 4750 50  0001 C CNN
+	1    1100 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -560,7 +545,7 @@ F 0 "R14" H 5030 2004 50  0000 R CNN
 F 1 "390k" H 5030 2095 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5030 2050 50  0001 C CNN
 F 3 "~" H 5100 2050 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 5100 2050 50  0001 C CNN "order"
+F 4 "https://www.mouser.de/ProductDetail/KOA-Speer/RK73H2ATTD3903F?qs=D8YA4XSfdnQ%2FP3dwrcS24A%3D%3D" H 5100 2050 50  0001 C CNN "order"
 	1    5100 2050
 	-1   0    0    1   
 $EndComp
@@ -585,56 +570,54 @@ U 1 1 616A4A10
 P 4300 850
 F 0 "J5" H 4408 1031 50  0000 C CNN
 F 1 "Pwr LED" H 4408 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 4300 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4300 850 50  0001 C CNN
 F 3 "~" H 4300 850 50  0001 C CNN
 	1    4300 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR023
+L power:VCC #PWR024
 U 1 1 616A4E71
-P 4950 850
-F 0 "#PWR023" H 4950 700 50  0001 C CNN
-F 1 "VCC" V 4965 978 50  0000 L CNN
-F 2 "" H 4950 850 50  0001 C CNN
-F 3 "" H 4950 850 50  0001 C CNN
-	1    4950 850 
+P 4950 950
+F 0 "#PWR024" H 4950 800 50  0001 C CNN
+F 1 "VCC" V 4965 1078 50  0000 L CNN
+F 2 "" H 4950 950 50  0001 C CNN
+F 3 "" H 4950 950 50  0001 C CNN
+	1    4950 950 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 616A8084
-P 4650 950
-F 0 "R11" V 4750 950 50  0000 C CNN
-F 1 "1.25k" V 4850 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4580 950 50  0001 C CNN
-F 3 "~" H 4650 950 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMukHu%252BjC5l7Yc9NSHzGyJyzws8eSaD%252BBHw%3D" H 4650 950 50  0001 C CNN "order"
-	1    4650 950 
+P 4650 850
+F 0 "R11" V 4750 850 50  0000 C CNN
+F 1 "1.25k" V 4850 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4580 850 50  0001 C CNN
+F 3 "~" H 4650 850 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF1201V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PdamLOtzjzkA%3D" H 4650 850 50  0001 C CNN "order"
+	1    4650 850 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 850  4950 850 
 $Comp
-L power:GND #PWR024
+L power:GND #PWR023
 U 1 1 616ABB8E
-P 4950 950
-F 0 "#PWR024" H 4950 700 50  0001 C CNN
-F 1 "GND" V 4955 822 50  0000 R CNN
-F 2 "" H 4950 950 50  0001 C CNN
-F 3 "" H 4950 950 50  0001 C CNN
-	1    4950 950 
+P 4950 850
+F 0 "#PWR023" H 4950 600 50  0001 C CNN
+F 1 "GND" V 4955 722 50  0000 R CNN
+F 2 "" H 4950 850 50  0001 C CNN
+F 3 "" H 4950 850 50  0001 C CNN
+	1    4950 850 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4950 950  4800 950 
+	4950 850  4800 850 
 $Comp
 L Connector:Conn_01x02_Male J2
 U 1 1 61524C7D
 P 900 850
 F 0 "J2" H 1008 1031 50  0000 C CNN
 F 1 "Battery" H 1008 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 900 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 900 850 50  0001 C CNN
 F 3 "~" H 900 850 50  0001 C CNN
 	1    900  850 
 	1    0    0    -1  
@@ -671,6 +654,7 @@ F 0 "U3" H 7050 2967 50  0000 C CNN
 F 1 "NE5532" H 7050 2876 50  0000 C CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 7050 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7050 2600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Texas-Instruments/NE5532APSR?qs=Tv815z3GeNT4dhpqaaa6LA%3D%3D" H 7050 2600 50  0001 C CNN "order"
 	2    7050 2600
 	1    0    0    -1  
 $EndComp
@@ -811,7 +795,7 @@ U 1 1 617985FD
 P 5950 850
 F 0 "J6" H 6058 1031 50  0000 C CNN
 F 1 "POTI" H 6058 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 5950 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5950 850 50  0001 C CNN
 F 3 "~" H 5950 850 50  0001 C CNN
 	1    5950 850 
 	1    0    0    -1  
@@ -835,7 +819,7 @@ U 1 1 617B7484
 P 7050 850
 F 0 "J7" H 7158 1031 50  0000 C CNN
 F 1 "Audio_In" H 7158 940 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 7050 850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7050 850 50  0001 C CNN
 F 3 "~" H 7050 850 50  0001 C CNN
 	1    7050 850 
 	1    0    0    -1  
@@ -1232,13 +1216,13 @@ Wire Wire Line
 $Comp
 L Device:R R8
 U 1 1 6150D0F0
-P 3100 3500
-F 0 "R8" H 3170 3546 50  0000 L CNN
-F 1 "1.25k" H 3170 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3030 3500 50  0001 C CNN
-F 3 "~" H 3100 3500 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMukHu%252BjC5l7Yc9NSHzGyJyzws8eSaD%252BBHw%3D" H 3100 3500 50  0001 C CNN "order"
-	1    3100 3500
+P 3100 3100
+F 0 "R8" H 3170 3146 50  0000 L CNN
+F 1 "390k" H 3170 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3030 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMukHu%252BjC5l7Yc9NSHzGyJyzws8eSaD%252BBHw%3D" H 3100 3100 50  0001 C CNN "order"
+	1    3100 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1251,7 +1235,7 @@ F 0 "R7" H 1180 5504 50  0000 R CNN
 F 1 "390k" H 1180 5595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 5550 50  0001 C CNN
 F 3 "~" H 1250 5550 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-6ENF3833V?qs=sGAEpiMZZMukHu%252BjC5l7Ye7G6YqZYGWLO48n8uKSaLY%3D" H 1250 5550 50  0001 C CNN "order"
+F 4 "https://www.mouser.de/ProductDetail/KOA-Speer/RK73H2ATTD3903F?qs=D8YA4XSfdnQ%2FP3dwrcS24A%3D%3D" H 1250 5550 50  0001 C CNN "order"
 	1    1250 5550
 	-1   0    0    1   
 $EndComp
@@ -1261,12 +1245,12 @@ U 1 1 6160340F
 P 750 4750
 F 0 "J1" H 800 5050 50  0000 C CNN
 F 1 "+9V" H 800 4950 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal" H 750 4750 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 750 4750 50  0001 C CNN
 F 3 "~" H 750 4750 50  0001 C CNN
 	1    750  4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1100 4850 2    50   Input ~ 0
+Text GLabel 1100 4650 2    50   Input ~ 0
 EN
 Wire Wire Line
 	950  4650 1100 4650
@@ -1348,7 +1332,7 @@ U 1 1 61750BD5
 P 8050 900
 F 0 "J8" H 8158 1081 50  0000 C CNN
 F 1 "Audio_Out" H 8158 990 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal" H 8050 900 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 8050 900 50  0001 C CNN
 F 3 "~" H 8050 900 50  0001 C CNN
 	1    8050 900 
 	1    0    0    -1  
@@ -1495,10 +1479,10 @@ $EndComp
 Wire Wire Line
 	8200 5800 8300 5800
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP2
 U 1 1 6206867A
 P 8300 5800
-F 0 "TP1" V 8254 5988 50  0000 L CNN
+F 0 "TP2" V 8254 5988 50  0000 L CNN
 F 1 "TestPoint" V 8345 5988 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8500 5800 50  0001 C CNN
 F 3 "~" H 8500 5800 50  0001 C CNN
@@ -1609,7 +1593,7 @@ U 1 1 616504AA
 P 3950 5550
 F 0 "C4" H 3832 5504 50  0000 R CNN
 F 1 "47u" H 3832 5595 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3988 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 3988 5400 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/AVX/TCNT476M016R0200A?qs=sGAEpiMZZMsh%252B1woXyUXj8cbwg7mY%252Bp%2FsXJ5jiWGcvo%3D" H 3950 5550 50  0001 C CNN
 	1    3950 5550
 	-1   0    0    1   
@@ -1620,7 +1604,7 @@ U 1 1 61650A18
 P 3950 6050
 F 0 "C5" H 4068 6096 50  0000 L CNN
 F 1 "47u" H 4068 6005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3988 5900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 3988 5900 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/AVX/TCNT476M016R0200A?qs=sGAEpiMZZMsh%252B1woXyUXj8cbwg7mY%252Bp%2FsXJ5jiWGcvo%3D" H 3950 6050 50  0001 C CNN
 	1    3950 6050
 	1    0    0    -1  
@@ -1641,4 +1625,22 @@ Wire Wire Line
 	1250 5400 1650 5400
 Wire Wire Line
 	3450 5800 3950 5800
+Wire Wire Line
+	4950 950  4500 950 
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6185DB4A
+P 3100 3550
+F 0 "TP1" V 3054 3738 50  0000 L CNN
+F 1 "*Fault" V 3145 3738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 3550 50  0001 C CNN
+F 3 "~" H 3300 3550 50  0001 C CNN
+	1    3100 3550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3100 3550
+Wire Wire Line
+	3100 3550 3100 3850
+Wire Wire Line
+	3100 3250 3100 3550
 $EndSCHEMATC
