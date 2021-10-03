@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Lukas\Documents\Technik- Projekt\Website_AssetsOriginals\AnywhereAmps\AnywhereAmps\Preamp\AnywhereAmps_Preamp.sch</source>
-    <date>03/10/2021 13:23:13</date>
+    <date>03/10/2021 18:21:18</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -141,7 +141,7 @@
       <tstamp>61662F23</tstamp>
     </comp>
     <comp ref="R13">
-      <value>1.25k</value>
+      <value>1.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -350,7 +350,7 @@
       <tstamp>6160A379</tstamp>
     </comp>
     <comp ref="R9">
-      <value>1.25k</value>
+      <value>1.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -361,7 +361,7 @@
       <tstamp>6150AAA3</tstamp>
     </comp>
     <comp ref="R10">
-      <value>1.25k</value>
+      <value>1.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -536,7 +536,7 @@
       <tstamp>6185DB4A</tstamp>
     </comp>
     <comp ref="R11">
-      <value>1.25k</value>
+      <value>1.2k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <fields>
@@ -860,7 +860,7 @@
       <node ref="C14" pin="2"/>
       <node ref="J1" pin="3"/>
       <node ref="C3" pin="2"/>
-      <node ref="C1" pin="1"/>
+      <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="U3" pin="4"/>
@@ -971,7 +971,7 @@
       <node ref="C6" pin="1"/>
       <node ref="J5" pin="1"/>
       <node ref="C14" pin="1"/>
-      <node ref="C1" pin="2"/>
+      <node ref="C1" pin="1"/>
       <node ref="C2" pin="1"/>
       <node ref="C17" pin="2"/>
       <node ref="U1" pin="1"/>
