@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="AnywhereAmps_Logo_WonB.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title4047">AnywhereAmps Logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="298.47065"
+     inkscape:cy="476.23508"
+     inkscape:window-width="1830"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       fill="none"
+       stroke="#000000"
+       id="g10-6"
+       transform="matrix(0.6145934,0,0,0.63227833,22.749084,70.354288)"
+       style="stroke-width:0.73310825;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1">
+      <path
+         d="m 57.115,72.056 14,-0.17 -4.1,15.115 4.1,15.115 -14,-0.17 -12,-14.945 z M 77,128 c 0,0 3.7,4.4 3.2,1.2 -0.56,-3.6 -7.6,-42 -7.6,-42 L 72.5575,86.979 C 72.5575,86.979 79.64,48.4 80.2,44.8 80.7,41.6 77,46 77,46 L 38.030631,87.098372 Z"
+         stroke-width="0.26px"
+         id="path2-9"
+         sodipodi:nodetypes="ccccccccccccccc"
+         style="stroke-width:0.73310825;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="M 62,67 73,55 c 0,0 3.9,-4.1 3.5,-1.5 -0.32,2.5 -3.4,13 -3.4,13 z"
+         stroke-width="0.24px"
+         id="path4-5"
+         style="stroke-width:0.73310825;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1" />
+      <path
+         d="m 62,107 11,12 c 0,0 3.9,4.1 3.5,1.5 -0.32,-2.5 -3.4,-13 -3.4,-13 z"
+         stroke-width="0.24px"
+         id="path8-8"
+         style="stroke-width:0.73310825;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1" />
+    </g>
+  </g>
+  <metadata
+     id="metadata4045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>AnywhereAmps Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
