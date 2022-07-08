@@ -1,0 +1,22 @@
+* C:\Users\Lukas\Documents\Technik- Projekt\Website_AssetsOriginals\AnywhereAmps\AnywhereAmps\Preamp\inrushLimiter_muteOut.asc
+C3 VOut 0 1200µ
+R5 VOut 0 400
+V2 Vbat 0 PULSE(0 20 0.2 1m 1m 1 1 1) Rser=0.01
+R9 Vbat base 100k
+R10 N001 0 1k
+Q2 Vgate base N001 0 BC547B
+R11 Vbat Vgate 100k
+R12 base 0 47k
+D4 VOut Vbat 1N5819
+C4 base 0 22µ
+D5 0 Vbat TFZ22B
+D1 0 VOut TFZ22B
+Q1 VOut Vgate Vbat 0 2SAR542P
+.model D D
+.lib C:\Users\Lukas\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Lukas\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 2
+.backanno
+.end

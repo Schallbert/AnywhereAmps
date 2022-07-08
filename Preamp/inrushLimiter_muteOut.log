@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Lukas\Documents\Technik- Projekt\Website_AssetsOriginals\AnywhereAmps\AnywhereAmps\Preamp\inrushLimiter_muteOut.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v2.  Increasing period to 1.002
+.OP point found by inspection.
+
+Date: Fri Feb 11 17:10:28 2022
+Total elapsed time: 0.191 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2579
+traniter = 2579
+tranpoints = 1256
+accept = 1210
+rejected = 46
+matrix size = 14
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.57 KB object code size  0.5/0.4/[0.2]
+Matrix Compiler2: 1.33 KB object code size  0.2/0.3/[0.2]
+

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AnywhereAmps_Complete-rescue)(type Legacy)(uri ${KIPRJMOD}/AnywhereAmps_Complete-rescue.lib)(options "")(descr ""))
+  (lib (name bd9e104fj)(type Legacy)(uri "C:/Users/Lukas/Documents/Technik- Projekt/Website_AssetsOriginals/AnywhereAmps/AnywhereAmps/Preamp/projectLibs/BD9E104FJ/bd9e104fj.lib")(options "")(descr ""))
+)

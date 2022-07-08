@@ -1,0 +1,21 @@
+Circuit: * C:\Users\Lukas\Documents\Technik- Projekt\Website_AssetsOriginals\AnywhereAmps\AnywhereAmps\Preamp\Draft1.asc
+
+.OP point found by inspection.
+
+Date: Fri Feb 11 17:12:06 2022
+Total elapsed time: 0.147 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2763
+traniter = 2763
+tranpoints = 1217
+accept = 1176
+rejected = 41
+matrix size = 15
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.58 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 1.41 KB object code size  0.1/0.2/[0.1]
+

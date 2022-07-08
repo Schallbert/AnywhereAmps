@@ -25,36 +25,38 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.864634"
-     inkscape:cx="96.871014"
-     inkscape:cy="104.55088"
+     inkscape:zoom="7.5887844"
+     inkscape:cx="150.94644"
+     inkscape:cy="229.48339"
      inkscape:window-width="1830"
      inkscape:window-height="1051"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
+     inkscape:current-layer="g10" />
   <g
      fill="none"
      stroke="#000000"
      id="g10"
-     transform="matrix(0.45436143,0,0,0.45980625,-6.5056027,-11.968424)"
-     style="stroke-width:0.99983431;stroke-miterlimit:4;stroke-dasharray:none">
+     transform="matrix(0.86732921,0,0,0.87094172,-22.211028,-29.907818)"
+     style="stroke-width:0.525811;stroke-miterlimit:4;stroke-dasharray:none">
     <path
-       d="m 57.115,72.056 14,-0.17 -4.1,15.115 4.1,15.115 -14,-0.17 -12,-14.945 z M 77,128 c 0,0 3.7,4.4 3.2,1.2 -0.56,-3.6 -7.6,-42 -7.6,-42 L 72.5575,86.979 C 72.5575,86.979 79.64,48.4 80.2,44.8 80.7,41.6 77,46 77,46 L 38.030631,87.098372 Z"
+       d="M 57.976649,72.169226 71.115,71.886 l -4.1,15.115 4.1,15.115 L 58.308825,101.74785 45.115,87.001 Z M 77,128 c 0,0 3.7,4.4 3.2,1.2 -0.56,-3.6 -7.6,-42 -7.6,-42 L 72.5575,86.979 C 72.5575,86.979 79.64,48.4 80.2,44.8 80.7,41.6 77,46 77,46 L 38.030631,87.098372 Z"
        stroke-width="0.26px"
        id="path2"
        sodipodi:nodetypes="ccccccccccccccc"
-       style="stroke-width:0.99983431;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="stroke-width:0.525811;stroke-miterlimit:4;stroke-dasharray:none" />
     <path
-       d="M 62,67 73,55 c 0,0 3.9,-4.1 3.5,-1.5 -0.32,2.5 -3.4,13 -3.4,13 z"
+       d="M 62,67 72.602058,54.886774 c 0,0 3.956849,-4.326452 3.556849,-1.726452 -0.32,2.5 -3.826366,13.60859 -3.826366,13.60859 z"
        stroke-width="0.24px"
        id="path4"
-       style="stroke-width:0.99983431;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="stroke-width:0.525811;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="ccccc" />
     <path
-       d="m 62,107 11,12 c 0,0 3.9,4.1 3.5,1.5 -0.32,-2.5 -3.4,-13 -3.4,-13 z"
+       d="m 62,107 10.916747,12.12981 c 0,0 3.488265,3.98677 3.088265,1.38677 -0.32,-2.5 -3.572985,-13.3138 -3.572985,-13.3138 z"
        stroke-width="0.24px"
        id="path8"
-       style="stroke-width:0.99983431;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="stroke-width:0.525811;stroke-miterlimit:4;stroke-dasharray:none"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>
